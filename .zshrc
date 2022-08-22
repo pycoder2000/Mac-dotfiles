@@ -104,11 +104,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias python='/opt/homebrew/bin/python3'
-alias pip=/opt/homebrew/bin/pip3
+alias pip='/opt/homebrew/bin/pip3'
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 alias brewskiall='brew update && brew upgrade && brew cleanup; brew doctor; brew cask cleanup'
 alias brewskiall2='brew update && brew upgrade && brew cleanup; brew doctor; brew cask cleanup; brew cask doctor'
 alias brewskiall3='brew update && brew upgrade && brew cleanup; brew doctor; brew cask cleanup; brew cask doctor'
+alias word='python /Users/parthdesai/lib/GRE-Prep-Tool/main.py'
+alias word2='python /Users/parthdesai/lib/GRE-CLI-Prep/vocab.py'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
